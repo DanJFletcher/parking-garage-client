@@ -13,7 +13,6 @@ export default new Vuex.Store({
   mutations: {
     setTickets: (state, tickets) => state.tickets = tickets,
     setTicket: (state, ticket) => state.ticket = ticket
-
   },
   getters: {
     tickets: ({tickets}) => tickets,
